@@ -1,7 +1,7 @@
 import API from "../api/axios";
 
 export const getProducts = () =>
-  API.get("/products");
+  API.get("/products/");
 
 export const getProduct = (id) =>
   API.get(`/products/${id}`);
